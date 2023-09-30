@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin-left: 5rem;
+}
+.cta {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

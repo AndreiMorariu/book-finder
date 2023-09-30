@@ -1,0 +1,20 @@
+.book {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bookImage {
+  object-fit: fill;
+}
+
+.bookTitle {
+  font-weight: 700;
+}
+
+.bookInformation {
+  text-align: center;
+}

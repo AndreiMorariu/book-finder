@@ -1,0 +1,23 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.imgContainer {
+  grid-column: 2 / 4;
+}
+
+.textContainer h2 {
+  margin-bottom: 2rem;
+  font-size: 40px;
+  color: var(--heading-color);
+}
+
+.textContainer p {
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}

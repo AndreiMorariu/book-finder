@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.book {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  border: 1px solid #333;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bookImage {
+  align-self: flex-start;
+}
+
+.book header {
+  display: flex;
+  gap: 1rem;
+}
+
+.book header div {
+}

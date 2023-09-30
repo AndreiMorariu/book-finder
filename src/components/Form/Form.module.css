@@ -1,0 +1,11 @@
+.form {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+
+.form input {
+  display: block;
+}
